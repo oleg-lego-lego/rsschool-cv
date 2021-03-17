@@ -34,5 +34,30 @@
           to work in a team, and charisma (a cheerful person).
         </p>
         <div class="Line"></div>
+
+        <p><b>My skills</b>:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+
+        <p><b>My code example:</b>:</p>
+        <pre>
+          <b>
+            <code>
+              const matrix = [['##', 'dd', '00'],['^', '^', 'ss'],['^^', 'dd', 'Oo'],];
+            
+              function countCats(matrix) {
+                let matrixFilter = matrix
+                  .reduce((acc, val) => acc.concat(val), [])
+                  .filter((x) => x === "^^").length;
+                return +matrixFilter;
+              };
+            </code>
+          </b>
+        </pre>
+        <div class="Line"></div>
   </body>
 </html>
