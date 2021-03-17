@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Hi, my Name is Oleg Ostrovski</h1>
+        <img
+          class="main_img"
+          src="img/1.png"
+          alt="photo oleg ostrovski"
+          width="400px"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="main_content">
+        <h2><b>name</b>: Oleg Ostrovski</h2>
+        <ul class="contact_me">
+          <li><span class="text">Phone: </span>+375295640740</li>
+          <li><span class="text">Email: </span>oleg.ostrovski@gmail.com</li>
+        </ul>
+        <h2><b>about Me:</b></h2>
+        <p>
+          I finished the Belarusian State Academy of Music. I have no technical
+          education or IT experience, but I'm a fast learner, and would like to
+          develop in this. Of my strengths I can mention perseverance, ability
+          to work in a team, and charisma (a cheerful person).
+        </p>
+        <div class="Line"></div>
+
+        <p><b>My skills</b>:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+
+        <p><b>My code example:</b>:</p>
+        <pre>
+          <b>
+            <code>
+              const matrix = [['##', 'dd', '00'],['^', '^', 'ss'],['^^', 'dd', 'Oo'],];
+            
+              function countCats(matrix) {
+                let matrixFilter = matrix
+                  .reduce((acc, val) => acc.concat(val), [])
+                  .filter((x) => x === "^^").length;
+                return +matrixFilter;
+              };
+            </code>
+          </b>
+        </pre>
+        <div class="Line"></div>
+
+        <p><b>My education is self-study</b>:</p>
+        <ul>
+          <li>read Modern JavaScript Tutorial.</li>
+          <li>www.codewars.com</li>
+          <li>I watched the video on youtube</li>
+          <li>listened Harvard course “CS50. Basics of programming "</li>
+        </ul>
+        <p>
+          <b>My English</b>: A2, I understand more through reading than
+          speaking.
+        </p>
+      </div>
+      <footer class="footer"></footer>
+    </main>
+  </body>
+</html>
